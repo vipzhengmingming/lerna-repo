@@ -1,3 +1,3 @@
 import React from 'react';
 
-export default ({ title }: { title: string }) => <h1>{title}</h1>;
+export default ({ title, name }: { title: string; name: string }) => <h1>{title + name}</h1>;
