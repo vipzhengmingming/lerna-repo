@@ -1,0 +1,10 @@
+37 error Error: Command failed with exit code 1: git add -- packages/demo-model/package.json packages/demo-model/package-lock.json packages/demo-model/CHANGELOG.md
+37 error 下列路径根据您的一个 .gitignore 文件而被忽略：
+37 error packages/demo-model/package-lock.json
+37 error 提示：如果您确实要添加它们，使用 -f 参数。
+37 error 提示：运行下面的命令来关闭本消息
+37 error 提示："git config advice.addIgnoredFile false"
+37 error     at makeError (/Users/zhengmingming/demo/Monorepo/lerna-repo/node_modules/@lerna/child-process/node_modules/execa/lib/error.js:60:11)
+37 error     at handlePromise (/Users/zhengmingming/demo/Monorepo/lerna-repo/node_modules/@lerna/child-process/node_modules/execa/index.js:118:26)
+37 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+37 error     at async Promise.all (index 0)
